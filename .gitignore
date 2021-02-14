@@ -4,3 +4,7 @@ assets/img/.DS_Store
 assets/vendor/.DS_Store
 .DS_Store
 pinegrow.json
+*.json
+_pgbackup/index_1613290522.html
+_pgbackup/index_1613290542.html
+_pgbackup/index_1613290554.html
