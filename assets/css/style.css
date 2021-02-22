@@ -372,7 +372,7 @@ h6 {
     line-height: 56px;
     color: #fff;
     text-transform: uppercase;
-    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'Aldrich', sans-serif;
 }
 
 #hero h2 {
@@ -1811,6 +1811,7 @@ service-p p {
     font-weight: lighter;
     letter-spacing: 3px;
     font-variant: small-caps;
+    white-space: nowrap;
 }
 
 .icon-services {
