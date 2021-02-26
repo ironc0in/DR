@@ -1888,3 +1888,23 @@ service-p p {
     vertical-align: bottom;
     flex-direction: column;
 }
+
+.lowerhalf {
+    padding-top: 30px;
+
+    /* background-color: whitesmoke; */
+    padding-bottom: 30px;
+}
+
+.upperhalf {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.greyback {
+    background-color: whitesmoke;
+}
+
+
+
+
