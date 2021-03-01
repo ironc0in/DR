@@ -1,11 +1,3 @@
-/* *
-* Template Name: Knight - v3.0.0
-* Template URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/ */
-/* --------------------------------------------------------------
-# General
--------------------------------------------------------------- */
 body {
     font-family: "Open Sans", sans-serif;
     color: #555555;
@@ -1835,7 +1827,7 @@ service-p p {
     padding-top: 8px;
     text-align: center;
     position: absolute;
-    background-color: #00ADEE;
+    background-color: #c6c6c6;
     border-radius: 50%;
     text-align: center;
     border: 4px solid #fff;
@@ -1849,7 +1841,7 @@ service-p p {
 }
 
 .box:hover .icon-large {
-    color: #00ADEE;
+    color: #c6c6c6;
 }
 
 @media (max-width:1024px) {
