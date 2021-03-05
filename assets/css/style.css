@@ -1057,6 +1057,7 @@ section {
     background: whitesmoke;
     padding: 15px 0;
     text-align: center;
+    font-size: -1px;
 }
 
 .clients img {
@@ -1794,16 +1795,21 @@ service-p p {
 
 .services {
     font-weight: lighter;
-    text-align: justify;
     padding: 0px 20px 0px 20px;
 }
 
 .sectors {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: lighter;
     letter-spacing: 3px;
     font-variant: small-caps;
     white-space: nowrap;
+}
+
+@media (max-width:768px) {
+    .sectors {
+        font-size: 22px;
+    }
 }
 
 .icon-services {
