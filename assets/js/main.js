@@ -1,9 +1,4 @@
-/**
-* Template Name: Knight - v3.0.0
-* Template URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 !(function($) {
   "use strict";
 
