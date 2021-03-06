@@ -1453,7 +1453,7 @@ section {
 
 .contact .php-email-form input,
 .contact .php-email-form textarea {
-    border-radius: 0;
+    border-radius: 5px;
     box-shadow: none;
     font-size: 14px;
 }
@@ -1476,7 +1476,8 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-    background: #0c98cd;
+    background: #e9f4f6;
+    color: #00ADEE;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1903,6 +1904,17 @@ service-p p {
     background-color: whitesmoke;
 }
 
+.form-thank-you {
+    display: none;
+    width: 100%;
+    text-align: center;
+}
 
+.form-thank-you h3 {
+    padding: 10px;
+}
 
+.error {
+    border: 3px solid #ED1941 !important;
+}
 

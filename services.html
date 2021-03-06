@@ -60,7 +60,7 @@
                 <!-- .nav-menu -->                 
             </div>             
         </header>
-        <section id="exec-privacy" class="about">
+        <section id="exec-privacy" class="about greyback">
             <div class="container"> 
                 <div class="section-title aos-init aos-animate" data-aos="fade-up"> 
                     <h2>Executive Privacy Management</h2> 
@@ -133,7 +133,7 @@ This requires an awareness of how information is spread and misused, tools and t
                 </div>                 
             </div>
         </section>
-        <section id="locate" class="about greyback">
+        <section id="locate" class="about">
             <div class="container"> 
                 <div class="section-title aos-init aos-animate" data-aos="fade-up"> 
                     <h2>Person &amp; Asset Locate</h2> 
@@ -193,7 +193,7 @@ This requires an awareness of how information is spread and misused, tools and t
                 </div>                 
             </div>
         </section>
-        <section id="bgc" class="about">
+        <section id="bgc" class="about greyback">
             <div class="container"> 
                 <div class="section-title aos-init aos-animate" data-aos="fade-up"> 
                     <h2>Strategic Background Screening</h2> 
@@ -253,7 +253,7 @@ This requires an awareness of how information is spread and misused, tools and t
                 </div>                 
             </div>
         </section>
-        <section id="osint" class="about greyback">
+        <section id="osint" class="about">
             <div class="container"> 
                 <div class="section-title aos-init aos-animate" data-aos="fade-up"> 
                     <h2>Professional Information Resource</h2> 
@@ -352,12 +352,12 @@ There is an ocean of information out there. Navigating it requires knowing the p
                             <div class="phone"> 
                                 <i class="icofont-phone"></i> 
                                 <h4>Call:</h4> 
-                                <p>+1 123 <!-- 0101 --> 456 7890</p> 
+                                <p>+1 (4<!--333-->06)&nbsp;<!-- 0101 --> 31<!-- 01-401 -->3-8<!-- 0104021-->787</p> 
                             </div>                             
-                        </div>
+                        </div>                         
                     </div>                     
                     <div class="col-lg-8 mt-5 mt-lg-0"> 
-                        <form action="https://getsimpleform.com/messages?form_api_token=92ea08c5a53b661b4e3b41412a273ac3" method="post" role="form" class="php-email-form" data-aos="fade-left"> 
+                        <form action="#" class="ajax-form php-email-form" data-aos="fade-left"> 
                             <div class="row"> 
                                 <div class="col-md-6 form-group"> 
                                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars"/> 
@@ -365,29 +365,32 @@ There is an ocean of information out there. Navigating it requires knowing the p
                                 </div>                                 
                                 <div class="col-md-6 form-group mt-3 mt-md-0"> 
                                     <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email"/> 
-                                    <div class="validate"></div>                                     
+                                    <div class="validate"></div>
                                 </div>                                 
                             </div>                             
                             <div class="form-group mt-3"> 
-                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject"/> 
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 4 chars of subject"/> 
                                 <div class="validate"></div>                                 
                             </div>                             
                             <div class="form-group mt-3"> 
-                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Please don't share anything sensitive."></textarea> 
+                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please enter your message" placeholder="Please don't share anything sensitive."></textarea> 
                                 <div class="validate"></div>                                 
                             </div>                             
                             <div class="mb-3"> 
                                 <div class="loading">Loading</div>                                 
-                                <div class="error-message"></div>                                 
-                                <div class="sent-message">Your message has been sent. Thank you!</div>                                 
-                                <input type='hidden' name='redirect_to' value='https://www.DecisiveResources.com'/>
                             </div>                             
                             <div class="text-center">
-                                <button type="submit"> 
-                                    <i class="icofont-envelope"></i> Send Message
+                                <button type="submit">
+                                    <i class="icofont-envelope"></i>  Send Message
                                 </button>
                             </div>                             
                         </form>
+                        <div class="container">
+                            <div class="form-thank-you">
+                                <h3>Thank you for contacting us!</h3>
+                                <p>We'll be in touch with you shortly</p>
+                            </div>                             
+                        </div>
                     </div>
                 </div>                 
             </div>             
@@ -407,7 +410,8 @@ There is an ocean of information out there. Navigating it requires knowing the p
         <!-- End Footer -->         
         <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a> 
         <!-- Vendor JS Files -->         
-        <script src="assets/vendor/jquery/jquery.min.js"></script>         
+        <script src="assets/vendor/jquery/jquery.min.js"></script>
+        <script src="assets/js/jquery.validate.min.js"></script>
         <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>         
         <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>         
         <script src="assets/vendor/php-email-form/validate.js"></script>         
@@ -416,7 +420,7 @@ There is an ocean of information out there. Navigating it requires knowing the p
         <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>         
         <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>         
         <script src="assets/vendor/aos/aos.js"></script>         
-        <!-- Template Main JS File -->         
+        <script src="assets/js/form.js"></script>         
         <script src="assets/js/main.js"></script>
     </body>     
 </html>
